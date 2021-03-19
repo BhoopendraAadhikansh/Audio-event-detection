@@ -1,5 +1,6 @@
 # audio-event-detection
 TRAIN MODEL:-
+Traning Data set:- https://drive.google.com/drive/folders/1oYxn-Y5X_pe9UTryiKDXEa83mKiOmslj?usp=sharing
 Step 1: Read csv file (labels_train.csv) containing the names of all audio files with their labels.
 Step 2: Perform feature extraction of audio files using STFT(short time fourier transform) and considering their absolute values.
 Step 3: Resize the audio files and append it in a list. Converting list of absolute values to an array. This array comes out to be x_train.
